@@ -3,9 +3,6 @@ import React, { Fragment } from "react";
 const ThesisPage = () => {
   return(
     <Fragment>
-      <div class="bg-light min-vh-100">
-        <div class="p-3">
-          <a href="../index.html">Home</a>
           
           <h1>Thesis</h1>
           <h2>"Crawling the web to identify the perseverance of cookie banners and respect for choice"</h2>
@@ -35,8 +32,6 @@ const ThesisPage = () => {
               <img src="./totStorage_Subset_Percentage.png" alt="Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)" title="Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)"/>
             </div>
           </div>
-        </div>
-      </div>
   </Fragment>
   )
 }

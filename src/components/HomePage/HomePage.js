@@ -3,22 +3,9 @@ import React, { Fragment } from "react";
 const HomePage = () => {
   return(
     <Fragment>
-      <div class="bg-light min-vh-100">
-      <div class="p-3">
-
-        <h1>Philippe Paquin-Hirtle</h1>
-          <p><i>This website is still under development.</i></p>
-      
-        <h3>About Me</h3>
-        
+        <h3>About me</h3>
           <p>I have recently graduated from Imperial College London (UK), a world-leading university in science and engineering, where I pursued a master's degree in computer science (MSc Computing). Through this program, I have developed a strong foundation in core and specialized computing topics while gaining hands-on practical skills. I have worked with programming languages such as C++, Python, JavaScript (Node.js, React.js).</p>
           <p>Prior to my masters, I obtained a Bachelor of Commerce (Finance) degree from McGill University's Desautels Faculty of Management (Canada), where I developed a solid foundation in business, finance, and sustainability. This multidisciplinary background equips me with a unique perspective that blends technical expertise with a deep understanding of organizational needs and challenges.</p>
-          <div class="mb-3">
-            <button type="button" class="btn btn-outline-dark"> <a href="https://www.linkedin.com/in/philippe-paquin-hirtle/" class="link-dark">LinkedIn</a> </button>
-            <button type="button" class="btn btn-outline-dark"> <a href="https://github.com/PhilippePH" class="link-dark">GitHub</a> </button>
-            <button type="button" class="btn btn-outline-dark"> <a href="PhilippePaquinHirtleCV_USLetter.pdf"class="link-dark">Resume (CV)</a> </button>
-          </div>
-
 
       <h3>Current Projects and Interests</h3>
         <ul>
@@ -44,7 +31,7 @@ const HomePage = () => {
             and <a href="https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time"class="link-dark">'A Brief History of Time'</a>.</li>
         </ul>
       
-      <h3>Past Projects</h3>
+      {/* <h3>Past Projects</h3>
       <ul>
         <li><a href="thesisPage/thesis.html" class="link-dark"> Thesis: "Crawling the web to identify the perseverance of cookie banners and respect for choice"</a> (September 2023)</li>
         <li><a href="trxPage/trx.html" class="link-dark"> TRX Star App</a> (March 2023)</li>
@@ -58,9 +45,7 @@ const HomePage = () => {
         <li><a href="webSecurityRecommendations/security.html" class="link-dark"> My web security setup recommendation</a></li>
         <li>Coming soon: A more secure email setup (hint: you need more than one email address)</li>
         <li>Coming later: Mobile browsing recommendations</li>
-      </ul>
-    </div>
-  </div>
+      </ul> */}
 </Fragment>
     )
 }

@@ -3,9 +3,6 @@ import React, { Fragment } from "react";
 const BrowserSecurity = () => {
   return(
     <Fragment>
-  <div class="bg-light min-vh-100">
-      <div class="p-3">
-
       <h2>Web Security Recommendations</h2>
 
       <ul>
@@ -30,8 +27,6 @@ const BrowserSecurity = () => {
       <p>These guides are intended for friends and family who may want to adapt their web setup. My recommendations are not exhaustive, and might become outdated. Many thanks to <a href="https://sunknudsen.com/">Sun Knudsen</a>; his great Youtube channel piqued my interest concerning web privacy and security, and a lot of my set up is based on his.</p>
 
       <p><i>You can find my web privacy recommendations <a href="../browserPrivacy/privacy.html">here</a></i>.</p>
-    </div>
-  </div>
   </Fragment>
   )
 }

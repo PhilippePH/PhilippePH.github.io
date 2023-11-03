@@ -3,11 +3,7 @@ import React, { Fragment } from "react";
 const TrxPage = () => {
   return(
     <Fragment>
-      <div class="bg-light min-vh-100">
-      <div class="p-3">
-        <a href="../index.html">Home</a>
-
-        <h1>TRX App Project</h1>
+      <h1>TRX App Project</h1>
         <p><a href="https://www.trxstar.co.uk/">TRX Star</a> aims to democratize workout platforms and empower users to take control of their exercise experience. 
           Currently, users can watch free videos and follow along with a coach, however, this is not personalised and can get repetitive. 
           The other option is to buy personalised workout plans, which are not guided by a coach, and are limited to a few workouts. 
@@ -30,8 +26,6 @@ const TrxPage = () => {
             <a href="https://www.trxstar.co.uk/">App</a>,
             <a href="https://github.com/PhilippePH/SoftwareEngineeringTRXStar">Repository</a>
           </p>
-      </div>
-    </div>
     </Fragment>
   )
 }

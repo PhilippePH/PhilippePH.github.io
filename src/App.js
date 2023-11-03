@@ -13,14 +13,18 @@ function App() {
   return(
     <Fragment>
       <NavBar/>
-      <Routes>
-        <Route path="/" element= {<HomePage/>} />
-        <Route path="/guides/privacyRecommendation" element= {<PrivacyRecommendation/>} />
-        <Route path="/guides/privacyRelevance" element= {<PrivacyRelevance/>} />
-        <Route path="/guides/browserSecurity" element= {<BrowserSecurity/>} />
-        <Route path="/projects/thesis" element= {<ThesisPage/>} />
-        <Route path="/projects/trx" element= {<TrxPage/>} />
-      </Routes>
+      <div class="bg-light min-vh-100">
+        <div class="p-3">
+          <Routes>
+            <Route path="/" element= {<HomePage/>} />
+            <Route path="/guides/privacyRecommendation" element= {<PrivacyRecommendation/>} />
+            <Route path="/guides/privacyRelevance" element= {<PrivacyRelevance/>} />
+            <Route path="/guides/browserSecurity" element= {<BrowserSecurity/>} />
+            <Route path="/projects/thesis" element= {<ThesisPage/>} />
+            <Route path="/projects/trx" element= {<TrxPage/>} />
+          </Routes>
+        </div>
+      </div>
     </Fragment>
   )
 }
