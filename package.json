@@ -1,12 +1,16 @@
 {
   "name": "philippeph",
+  "homepage": "https://philippeph.github.io/",
   "version": "1.0.0",
   "description": "Personal Website for Philippe Paquin-Hirtle",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
