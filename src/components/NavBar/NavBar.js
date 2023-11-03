@@ -32,7 +32,7 @@ const NavBar = () => {
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><button class="dropdown-item" onClick={() => { navigate("/guides/privacyRelevance")}}>Privacy Relevance</button></li>
-                <li><button class="dropdown-item" onClick={() => { navigate("/guides/privacyRelevance")}}>Privacy Setup</button></li>
+                <li><button class="dropdown-item" onClick={() => { navigate("/guides/privacyRecommendation")}}>Privacy Setup</button></li>
                 <li><hr class="dropdown-divider"/></li>
                 <li><button class="dropdown-item" onClick={() => { navigate("/guides/browserSecurity")}}>Security Setup</button></li>
               </ul>
@@ -47,7 +47,7 @@ const NavBar = () => {
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../PhilippePaquinHirtleCV_USLetter.pdf">Resume (CV)</a>
+              <a class="nav-link active" aria-current="page" href="../PhilippePaquinHirtleCV_USLetter.pdf">Resume (CV)</a> 
             </li>
             
           </ul>

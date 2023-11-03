@@ -3,9 +3,7 @@ import React, { Fragment } from "react";
 const PrivacyRecommendation = () => {
   return(
     <Fragment>
-      <h1>My browser privacy setup recommendation</h1>
-        <p><i>Not sure why you should care yet? Check this page out: <a href="./privacyRelevance.html">The Relevance of Web Privacy for Everyday Users</a></i></p>
-          
+      <h1>My browser privacy setup recommendation</h1>          
         <ul>
           <li>Use a more privacy-focused browser. I currently use <a href="https://www.mozilla.org/en-CA/firefox/new/">Firefox</a>. (If you use Firefox,
             disable sponsored shortcuts and sponsored stories, found in about:preferences#home (I disable them altogether). I also disabled Snippets.)</li>
@@ -46,8 +44,6 @@ const PrivacyRecommendation = () => {
             <li>Refuse when websites ask to access your location, unless you judge it to be absolutely necessary</li>
             <li>Change the default search engine to DuckDuckGo. For day-to-day browsing, DuckDuckGo should be satisfactory. When doing advanced research, it might be useful to use Google as its search results are still better.</li>
           </ul>
-
-          <p><i>You can find my web security recommendations <a href="../webSecurityRecommendations/security.html">here</a>. </i></p>
   </Fragment>
   )
 }

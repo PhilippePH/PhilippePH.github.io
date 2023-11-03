@@ -55,8 +55,6 @@ const PrivacyRelevance = () => {
             engage in open discourse, and challenge the status quo without fear of government or corporate monitoring.
           </p>
 
-        <h4>I have also written some <a href="./privacy.html"> web privacy recommendations</a>, and <a href="../webSecurityRecommendations/security.html">web security recommendations</a>.</h4>
-
         <div>
           <p>Cited sources</p>
           <p>[1] (Sanchez-Rola et al., 2018), (Libert, T. 2018), (Papadopoulos et al., 2019), (Sanchez-Rola et al., 2019), (Bielova et al., 2020)</p>
