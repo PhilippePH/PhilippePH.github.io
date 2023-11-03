@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import './NavBar.scss';
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -7,7 +8,9 @@ const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <div class="navbar-brand" onClick={() => { navigate("/")}}>Philippe Paquin-Hirtle</div>
+        <div class="navbar-brand clickable" onClick={() => { navigate("/")}}>Philippe Paquin-Hirtle</div>
+
+        {/* for hamburger menu on small device */}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
