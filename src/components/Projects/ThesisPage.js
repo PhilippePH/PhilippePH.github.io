@@ -16,20 +16,21 @@ const ThesisPage = () => {
           <p><i>This work was submitted in partial fulfilment of the requirements for the MSc Degree in Computing of Imperial College London.
               Many thanks to Dr. Hamed Haddadi and Dr. Pete Snyder for their help and supervision.</i></p>
 
-          <p>
-            Links:
-            <a href="Presentation.pdf">Presentation</a>, 
-            <a href="Thesis.pdf">Thesis</a>
-          </p>
+          <div className = "mb-3 container">
+            <div class = "row">
+              <button className = "btn btn-dark col" href="Presentation.pdf">Presentation (PDF)</button>
+              <button className = "btn btn-dark col ml-auto" href="Thesis.pdf">Thesis (PDF)</button>
+            </div>
+          </div>
 
           <div>
             <div>
               <p><i>Percentage Change in Visible Cookie Banners, Compared to Google Chrome, per Browser (Lower is Better)</i></p>
-              <img src="./bannersVisiblePercentageChange.png" alt="Percentage change in cookie banners, compared to Google Chrome" title="Percentage change in cookie banners, compared to Google Chrome"/>
+              <img src="../../files/bannersVisiblePercentageChange.png" alt="Percentage change in cookie banners, compared to Google Chrome" title="Percentage change in cookie banners, compared to Google Chrome"/>
             </div>
             <div>
               <p><i>Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)</i></p>
-              <img src="./totStorage_Subset_Percentage.png" alt="Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)" title="Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)"/>
+              <img src="../../files/totStorage_Subset_Percentage.png" alt="Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)" title="Percentage Change in Storage, Compared to Google Chrome, per Browser (Lower is Better)"/>
             </div>
           </div>
   </Fragment>
