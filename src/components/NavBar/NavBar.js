@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Philippe Paquin-Hirtle</a>
+        <div class="navbar-brand" onClick={() => { navigate("/")}}>Philippe Paquin-Hirtle</div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,9 +19,9 @@ const NavBar = () => {
                 Projects
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/projects/thesis">Thesis: Blocking Cookie Banners</a></li>
-                <li><a class="dropdown-item" href="https://github.com/PhilippePH/MixAtHome">MixAtHome</a></li>
-                <li><a class="dropdown-item" href="/projects/trx">TRX Star</a></li>
+                <li><button class="dropdown-item" onClick={() => { navigate("/projects/thesis")}}>Thesis: Blocking Cookie Banners</button></li>
+                <li><a class="dropdown-item" href = "https://github.com/PhilippePH/MixAtHome" >MixAtHome</a></li>
+                <li><button class="dropdown-item" onClick={() => { navigate("/projects/trx")}}>TRX Star</button></li>
               </ul>
             </li>
 
@@ -31,10 +31,10 @@ const NavBar = () => {
                 Guides
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/guides/privacyRelevance">Privacy Relevance</a></li>
-                <li><a class="dropdown-item" href="/guides/privacyRelevance">Privacy Setup</a></li>
+                <li><button class="dropdown-item" onClick={() => { navigate("/guides/privacyRelevance")}}>Privacy Relevance</button></li>
+                <li><button class="dropdown-item" onClick={() => { navigate("/guides/privacyRelevance")}}>Privacy Setup</button></li>
                 <li><hr class="dropdown-divider"/></li>
-                <li><a class="dropdown-item" href="/guides/browserSecurity">Security Setup</a></li>
+                <li><button class="dropdown-item" onClick={() => { navigate("/guides/browserSecurity")}}>Security Setup</button></li>
               </ul>
             </li>
 
