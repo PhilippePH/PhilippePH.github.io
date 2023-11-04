@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const PrivacyRelevance = () => {
   return(
     <Fragment>
-      <h1>Understanding Web Tracking and Its Implications for Everyday Users</h1>
+      <h2>Understanding Web Tracking and Its Implications for Everyday Users</h2>
         <h4>A short introduction to web tracking</h4>
           <p>
           Web tracking refers to the practice of monitoring and recording user activities
@@ -33,7 +33,7 @@ const PrivacyRelevance = () => {
                 <li><b>Avoiding manipulation: </b>The data collected by cookies and trackers can be used to manipulate users' online experience.
                                                     For example, most web users are shown biased news and content that reinforces 
                                                     their existing beliefs (echo chambers). This contributes to polarization, a serious threat to democracy. 
-                                                    One simply needs to recall the <a href="https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal">Cambridge Analytica scandal</a> to see
+                                                    One simply needs to recall the <a className="link-dark" href="https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal">Cambridge Analytica scandal</a> to see
                                                     how user data can be used without one's consent or knowledge in order to influence one's behavior. 
                                                     </li>
                 <li><b>Future Impact: </b>I kept what is probably the most important for last: data collected today may have unforseen long-term consequences. 

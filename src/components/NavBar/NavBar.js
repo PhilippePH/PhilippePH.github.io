@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import './NavBar.scss';
+import CV from "../../files/PhilippePaquinHirtleCV_USLetter.pdf";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ const NavBar = () => {
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><button class="dropdown-item" onClick={() => { navigate("/projects/thesis")}}>Thesis: Blocking Cookie Banners</button></li>
-                <li><a class="dropdown-item" href = "https://github.com/PhilippePH/MixAtHome" >MixAtHome</a></li>
+                <li><a class="dropdown-item" href = "https://github.com/PhilippePH/MixAtHome" without rel="noopener noreferrer" target="_blank" >MixAtHome</a></li>
                 <li><button class="dropdown-item" onClick={() => { navigate("/projects/trx")}}>TRX Star</button></li>
               </ul>
             </li>
@@ -42,15 +43,15 @@ const NavBar = () => {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/philippe-paquin-hirtle/">LinkedIn</a>
+              <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/philippe-paquin-hirtle/" without rel="noopener noreferrer" target="_blank">LinkedIn</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://github.com/PhilippePH">Github</a>
+              <a class="nav-link active" aria-current="page" href="https://github.com/PhilippePH" without rel="noopener noreferrer" target="_blank">Github</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../PhilippePaquinHirtleCV_USLetter.pdf">Resume (CV)</a> 
+              <a class="nav-link active" aria-current="page" href={CV} without rel="noopener noreferrer" target="_blank" >Resume (CV)</a> 
             </li>
             
           </ul>
