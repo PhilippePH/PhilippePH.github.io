@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7f649eb5.css","mappings":"AAEA,WACE","sources":["components/NavBar/NavBar.scss"],"sourcesContent":["\n// Define a custom class for the clickable cursor\n.clickable {\n  cursor: pointer;\n}\n"],"names":[],"sourceRoot":""}

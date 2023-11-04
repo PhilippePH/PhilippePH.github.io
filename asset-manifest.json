@@ -1,10 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.69350e87.js",
+    "main.css": "/static/css/main.7f649eb5.css",
+    "main.js": "/static/js/main.742685ea.js",
+    "static/media/Thesis.pdf": "/static/media/Thesis.0d83dcef104bd62184db.pdf",
+    "static/media/Presentation.pdf": "/static/media/Presentation.b82e4ed0f2baf08b6195.pdf",
+    "static/media/PhilippePaquinHirtleCV_USLetter.pdf": "/static/media/PhilippePaquinHirtleCV_USLetter.cc50dc40f2d6f2399992.pdf",
+    "static/media/trx-3.jpg": "/static/media/trx-3.dffcb4dd0e6f1563ebcb.jpg",
+    "static/media/trx-2.jpg": "/static/media/trx-2.413d17dba2bb34443930.jpg",
+    "static/media/trx-1.jpg": "/static/media/trx-1.dbf0624187b2aac40b89.jpg",
+    "static/media/totStorage_Subset_Percentage.png": "/static/media/totStorage_Subset_Percentage.2726f156fc86b7f506b6.png",
+    "static/media/bannersVisiblePercentageChange.png": "/static/media/bannersVisiblePercentageChange.17161ec484dd252f0990.png",
     "index.html": "/index.html",
-    "main.69350e87.js.map": "/static/js/main.69350e87.js.map"
+    "main.7f649eb5.css.map": "/static/css/main.7f649eb5.css.map",
+    "main.742685ea.js.map": "/static/js/main.742685ea.js.map"
   },
   "entrypoints": [
-    "static/js/main.69350e87.js"
+    "static/css/main.7f649eb5.css",
+    "static/js/main.742685ea.js"
   ]
 }
